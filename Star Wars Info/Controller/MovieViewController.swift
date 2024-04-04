@@ -5,17 +5,17 @@
 //  Created by Forsmajor on 18.03.2024.
 //
 
+import Foundation
 import UIKit
 
 class MovieViewController: UIViewController {
     
-    let defaultColor = UIColor.red
-    //let episodeArray = ["Episode 1", "Episode 2", "Episode 3" ]
+    let defaultColor = UIColor.blue
     
     @IBOutlet var wrapperView: UIView!
     @IBOutlet weak var episodeTableView: UITableView!
     
-    var movies: [Movie] = []
+    var movies: [StarWarsData] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +27,8 @@ class MovieViewController: UIViewController {
     func configure() {
         
         wrapperView.backgroundColor = defaultColor
-        //navigtaionController?.navigationBar.backgroundColor = defaultColor
-        //self.testTableView.backgroundColor = .white
+        navigationController?.navigationBar.backgroundColor = defaultColor
+        episodeTableView.backgroundColor = .white
         
     }
 }
@@ -41,9 +41,7 @@ extension MovieViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
-        let movie = movies[indexPath.row]
-        cell?.textLabel?.text = "\(movie.episodeID). \(movie.title)"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as? MovieCell
         return cell!
     }
     
@@ -60,6 +58,20 @@ extension MovieViewController: UITableViewDelegate {
         
     }
 
+}
+//MARK: - StarWars Manager Delegate
+
+extension MovieViewController: StarWarsManagerDelegate {
+    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: MovieModel) {
+        DispatchQueue.main.async {
+            self.episodeTableView.reloadData()
+        }
+    }
+    
+    func didFailWithError(error: Error) {
+        print(error)
+    }
+     
 }
 
 

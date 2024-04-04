@@ -16,22 +16,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GcS-l8-6gs">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GcS-l8-6gs">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="73"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="FTE-Fn-uew">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="ece-1X-3wL" userLabel="Cell">
-                                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="69" id="ece-1X-3wL" userLabel="Cell" customClass="MovieCell" customModule="Star_Wars_Info" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="50" width="393" height="69"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ece-1X-3wL" id="wdL-rJ-aTm">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="69"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="episodeName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxl-g6-P0l">
+                                                            <rect key="frame" x="20" y="22.000000000000004" width="106" height="46.333333333333343"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="episodeId" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIV-s6-RWR">
+                                                            <rect key="frame" x="20" y="0.0" width="75" height="21"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="21" id="wxd-xI-gOG"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="LIV-s6-RWR" firstAttribute="top" secondItem="wdL-rJ-aTm" secondAttribute="topMargin" constant="-11" id="70D-97-F9V"/>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pxl-g6-P0l" secondAttribute="trailing" constant="20" symbolic="YES" id="KEU-KK-F2r"/>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LIV-s6-RWR" secondAttribute="trailing" constant="20" symbolic="YES" id="OQ8-ex-0Yr"/>
+                                                        <constraint firstItem="LIV-s6-RWR" firstAttribute="leading" secondItem="wdL-rJ-aTm" secondAttribute="leadingMargin" id="VHD-PO-eCq"/>
+                                                        <constraint firstItem="pxl-g6-P0l" firstAttribute="top" secondItem="LIV-s6-RWR" secondAttribute="bottom" constant="1" id="VxX-B1-8Jk"/>
+                                                        <constraint firstAttribute="bottomMargin" secondItem="pxl-g6-P0l" secondAttribute="bottom" constant="-10.333332061767578" id="aqM-qW-Jhg"/>
+                                                        <constraint firstItem="LIV-s6-RWR" firstAttribute="leading" secondItem="pxl-g6-P0l" secondAttribute="leading" id="rRJ-H2-EkA"/>
+                                                    </constraints>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="episodeId" destination="LIV-s6-RWR" id="8t8-bl-gJH"/>
+                                                    <outlet property="episodeName" destination="pxl-g6-P0l" id="dao-96-pd1"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                         <connections>
@@ -45,6 +74,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GcS-l8-6gs" secondAttribute="bottom" constant="745" id="0cL-QM-XQm"/>
+                            <constraint firstItem="GcS-l8-6gs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fUe-6x-8GX"/>
+                            <constraint firstAttribute="trailing" secondItem="GcS-l8-6gs" secondAttribute="trailing" id="jWn-4t-G3a"/>
+                            <constraint firstItem="GcS-l8-6gs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xM1-7e-phk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="StarWarsInfo" id="Rsk-VQ-kB1"/>
                     <connections>
@@ -64,10 +99,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="iUG-vR-eTE">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

@@ -18,7 +18,7 @@ struct StarWarsManager {
     var delegate: StarWarsManagerDelegate?
     
     func fetchMovie() {
-        let urlString = "\(starWarsURL)film/"
+        let urlString = "\(starWarsURL)films/"
         performRequest(with: urlString)
     }
     
@@ -43,11 +43,12 @@ struct StarWarsManager {
     func parseJSON(starWarsData: Data) -> MovieModel? {
         let decoder = JSONDecoder()
         do {
-            let decodedData = try decoder.decode(Movie.self, from: starWarsData)
-            let episode = decodedData.episodeID
-            let title = decodedData.title
+            let decodedData = try decoder.decode(StarWarsData.self, from: starWarsData)
+            let count = decodedData.count
+            //let episode = decodedData.episode_id
+            //let title = decodedData.title
             
-            let starWars = MovieModel()
+            let starWars = MovieModel(countId: count)
             return starWars
             
         } catch {

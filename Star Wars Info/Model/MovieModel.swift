@@ -8,6 +8,28 @@
 import Foundation
 
 struct MovieModel {
-    let episodeID: String = ""
-    let episodeName: String = ""
+    let countId: Int
+    //let episodeId: Int
+    //let episodeName: String
+    
+//    var episodeRomeId: String {
+//        switch episodeId {
+//        case 1:
+//            return "Episode I"
+//        case 2:
+//            return "Episode II"
+//        case 3:
+//            return "Episode III"
+//        case 4:
+//            return "Episode IV"
+//        case 5:
+//            return "Episode V"
+//        case 6:
+//            return "Episode VI"
+//        case 7:
+//            return "Episode VII"
+//        default:
+//           return "Episode"
+//        }
+//    }
 }
