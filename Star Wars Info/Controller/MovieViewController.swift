@@ -11,16 +11,23 @@ import UIKit
 class MovieViewController: UIViewController {
     
     let defaultColor = UIColor.blue
+    var dataManager = StarWarsManager()
+    var model = MovieModel(countId: 0)
     
     @IBOutlet var wrapperView: UIView!
     @IBOutlet weak var episodeTableView: UITableView!
     
-    var movies: [StarWarsData] = []
+    var movies: StarWarsData?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         configure()
+        dataManager.fetchMovie()
+        dataManager.delegate = self
+        
+        
         
     }
     
@@ -37,11 +44,16 @@ class MovieViewController: UIViewController {
 
 extension MovieViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return movies.count
+        return model.countId
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as? MovieCell
+        
+        cell?.episodeId.text = String(model.countId)
+    
+        
+        
         return cell!
     }
     
@@ -52,8 +64,6 @@ extension MovieViewController: UITableViewDataSource {
 extension MovieViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        
-        
         tableView.deselectRow(at: indexPath, animated: true)
         
     }
@@ -63,6 +73,7 @@ extension MovieViewController: UITableViewDelegate {
 
 extension MovieViewController: StarWarsManagerDelegate {
     func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: MovieModel) {
+        model = starWars
         DispatchQueue.main.async {
             self.episodeTableView.reloadData()
         }
