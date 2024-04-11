@@ -8,11 +8,12 @@
 import Foundation
 
 protocol StarWarsManagerDelegate {
-    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: MovieModel)
+    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: [MovieModelStruct])
     func didFailWithError(error: Error)
 }
 
 struct StarWarsManager {
+    
     let starWarsURL = "https://swapi.dev/api/"
     
     var delegate: StarWarsManagerDelegate?
@@ -25,7 +26,7 @@ struct StarWarsManager {
     func performRequest(with urlString: String) {
         if let url = URL(string: urlString) {
             let session = URLSession(configuration: .default)
-            let task = session.dataTask(with: url) {(data, responce,error) in
+            let task = session.dataTask(with: url) {(data, responce, error) in
                 if error != nil {
                     self.delegate?.didFailWithError(error: error!)
                     return
@@ -39,17 +40,17 @@ struct StarWarsManager {
             task.resume()
         }
     }
-    
-    func parseJSON(starWarsData: Data) -> MovieModel? {
+    func parseJSON(starWarsData: Data) -> [MovieModelStruct]? {
+        
+        var modelStructArray: [MovieModelStruct] = []
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode(StarWarsData.self, from: starWarsData)
-            let count = decodedData.count
-            //let episode = decodedData.episode_id
-            //let title = decodedData.title
-            
-            let starWars = MovieModel(countId: count)
-            return starWars
+            for i in starWarsData {
+                let episode = decodedData.results[i].episode_id
+                let title = decodedData.results[i].title
+            }
+                return modelStructArray
             
         } catch {
             delegate?.didFailWithError(error: error)

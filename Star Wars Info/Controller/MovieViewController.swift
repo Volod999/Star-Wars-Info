@@ -11,32 +11,27 @@ import UIKit
 class MovieViewController: UIViewController {
     
     let defaultColor = UIColor.blue
-    var dataManager = StarWarsManager()
-    var model = MovieModel(countId: 0)
     
     @IBOutlet var wrapperView: UIView!
     @IBOutlet weak var episodeTableView: UITableView!
     
-    var movies: StarWarsData?
+    var dataManager = StarWarsManager()
+    var model: [MovieModelStruct]?
+    var movies: [StarWarsData]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         configure()
         dataManager.fetchMovie()
         dataManager.delegate = self
-        
-        
-        
+
     }
     
     func configure() {
-        
         wrapperView.backgroundColor = defaultColor
         navigationController?.navigationBar.backgroundColor = defaultColor
         episodeTableView.backgroundColor = .white
-        
     }
 }
 
@@ -44,14 +39,22 @@ class MovieViewController: UIViewController {
 
 extension MovieViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return model.countId
+        return  movies?.count ?? 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as? MovieCell
         
-        cell?.episodeId.text = String(model.countId)
-    
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as? MovieCell
+        let movie = model?[indexPath.row]
+        dataManager.fetchMovie()
+        
+            if let episode = movie?.episodeRomeId {
+                cell?.episodeId.text = episode
+            }
+            if let title = movie?.episodeName {
+                cell?.episodeName.text = title
+            }
+        
         
         
         return cell!
@@ -59,12 +62,11 @@ extension MovieViewController: UITableViewDataSource {
     
 }
 
+
 //MARK: - TableView Delegate Methods
 
 extension MovieViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        tableView.deselectRow(at: indexPath, animated: true)
         
     }
 
@@ -72,7 +74,8 @@ extension MovieViewController: UITableViewDelegate {
 //MARK: - StarWars Manager Delegate
 
 extension MovieViewController: StarWarsManagerDelegate {
-    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: MovieModel) {
+    
+    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: [MovieModelStruct]) {
         model = starWars
         DispatchQueue.main.async {
             self.episodeTableView.reloadData()
