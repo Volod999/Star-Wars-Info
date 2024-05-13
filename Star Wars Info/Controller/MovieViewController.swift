@@ -16,8 +16,8 @@ class MovieViewController: UIViewController {
     @IBOutlet weak var episodeTableView: UITableView!
     
     var dataManager = StarWarsManager()
-    var model: [MovieModelStruct]?
-    var movies: [StarWarsData]?
+    var model: MovieModel?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,14 +39,13 @@ class MovieViewController: UIViewController {
 
 extension MovieViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return  movies?.count ?? 1
+        return  model?.movieModelArray.count ?? 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as? MovieCell
-        let movie = model?[indexPath.row]
-        dataManager.fetchMovie()
+        let movie = model?.movieModelArray[indexPath.row]
         
             if let episode = movie?.episodeRomeId {
                 cell?.episodeId.text = episode
@@ -75,7 +74,7 @@ extension MovieViewController: UITableViewDelegate {
 
 extension MovieViewController: StarWarsManagerDelegate {
     
-    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: [MovieModelStruct]) {
+    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: MovieModel) {
         model = starWars
         DispatchQueue.main.async {
             self.episodeTableView.reloadData()

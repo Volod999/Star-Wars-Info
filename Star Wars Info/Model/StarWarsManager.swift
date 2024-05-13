@@ -8,7 +8,7 @@
 import Foundation
 
 protocol StarWarsManagerDelegate {
-    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: [MovieModelStruct])
+    func didUpdateStarWars(_ starWarsManager: StarWarsManager, starWars: MovieModel)
     func didFailWithError(error: Error)
 }
 
@@ -40,21 +40,23 @@ struct StarWarsManager {
             task.resume()
         }
     }
-    func parseJSON(starWarsData: Data) -> [MovieModelStruct]? {
-        
+    func parseJSON(starWarsData: Data) -> MovieModel? {
+        var model: MovieModel?
         var modelStructArray: [MovieModelStruct] = []
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode(StarWarsData.self, from: starWarsData)
-            for i in starWarsData {
-                let episode = decodedData.results[i].episode_id
-                let title = decodedData.results[i].title
+            for result in decodedData.results {
+                let movie = MovieModelStruct(episodeId: result.episode_id, episodeName: result.title)
+                modelStructArray.append(movie)
+                model = MovieModel(movieModelArray: modelStructArray)
             }
-                return modelStructArray
+            
             
         } catch {
             delegate?.didFailWithError(error: error)
             return nil
         }
+        return model
     }
 }

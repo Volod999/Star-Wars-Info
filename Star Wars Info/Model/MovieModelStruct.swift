@@ -8,7 +8,7 @@
 import Foundation
 
 struct MovieModel: Codable {
-    let movieModelArray: [MovieModelStruct]
+    var movieModelArray: [MovieModelStruct]
 }
 struct MovieModelStruct: Codable {
     

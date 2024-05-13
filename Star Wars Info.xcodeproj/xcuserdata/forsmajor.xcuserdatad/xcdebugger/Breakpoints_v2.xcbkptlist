@@ -64,6 +64,36 @@
                   endingLineNumber = "44"
                   offsetFromSymbolStart = "128">
                </Location>
+               <Location
+                  uuid = "BCF39F53-D8B7-4580-85EC-E0040B9F7EF8 - 1c4dc9ff8d8831f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "BCF39F53-D8B7-4580-85EC-E0040B9F7EF8 - 1c4dc9ff8d8831f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "142">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -81,6 +111,38 @@
             endingLineNumber = "46"
             landmarkName = "parseJSON(starWarsData:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB2F8C00-EDFA-4B5D-8885-48BFD36C8A4B - 1c4dc9ff8d883231"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "DB2F8C00-EDFA-4B5D-8885-48BFD36C8A4B - 1c4dc9ff8d883231"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "169">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -127,6 +189,36 @@
                   startingLineNumber = "46"
                   endingLineNumber = "46"
                   offsetFromSymbolStart = "133">
+               </Location>
+               <Location
+                  uuid = "452D7886-918B-4B6D-BC8F-72A7BE7BC5D3 - 1c4dc9ff8d883277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "221">
+               </Location>
+               <Location
+                  uuid = "452D7886-918B-4B6D-BC8F-72A7BE7BC5D3 - 1c4dc9ff8d883277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "202">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -176,6 +268,36 @@
                   endingLineNumber = "46"
                   offsetFromSymbolStart = "133">
                </Location>
+               <Location
+                  uuid = "6D49D2A8-B37D-49D9-BDDE-3D988BFFADC3 - 1c4dc9ff8d883277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "221">
+               </Location>
+               <Location
+                  uuid = "6D49D2A8-B37D-49D9-BDDE-3D988BFFADC3 - 1c4dc9ff8d883277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "202">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -189,8 +311,8 @@
             filePath = "Star Wars Info/Model/StarWarsManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "parseJSON(starWarsData:)"
             landmarkType = "7">
             <Locations>
@@ -224,180 +346,35 @@
                   endingLineNumber = "51"
                   offsetFromSymbolStart = "202">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C9EC0B82-1E20-4B53-B11D-9D0BDA660AF3"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Star Wars Info/Controller/MovieViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "didUpdateStarWars(_:starWars:)"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "C9EC0B82-1E20-4B53-B11D-9D0BDA660AF3 - b5ea8ab3fabf22a4"
+                  uuid = "B261A266-4B0A-4353-B43D-D8F78ABC5764 - 1c4dc9ff8d88336f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Star_Wars_Info.MovieViewController.didUpdateStarWars(_: Star_Wars_Info.StarWarsManager, starWars: Star_Wars_Info.MovieModel) -&gt; ()"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
                   moduleName = "Star Wars Info"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
-                  offsetFromSymbolStart = "195">
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1117">
                </Location>
                <Location
-                  uuid = "C9EC0B82-1E20-4B53-B11D-9D0BDA660AF3 - b5ea8ab3fabf2285"
+                  uuid = "B261A266-4B0A-4353-B43D-D8F78ABC5764 - 1c4dc9ff8d88336f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Star_Wars_Info.MovieViewController.didUpdateStarWars(_: Star_Wars_Info.StarWarsManager, starWars: Star_Wars_Info.MovieModel) -&gt; ()"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
                   moduleName = "Star Wars Info"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "75"
-                  endingLineNumber = "75"
-                  offsetFromSymbolStart = "195">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "68234D4C-D45D-463C-B885-CAE0C52EE1BC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Star Wars Info/Controller/MovieViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "didUpdateStarWars(_:starWars:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "102C1CEC-8F2C-4EFE-A873-08AB323497D9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Star Wars Info/Controller/MovieViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "didUpdateStarWars(_:starWars:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "102C1CEC-8F2C-4EFE-A873-08AB323497D9 - a68f6a48aa459075"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Star_Wars_Info.MovieViewController.didUpdateStarWars(_: Star_Wars_Info.StarWarsManager, starWars: Star_Wars_Info.MovieModel) -&gt; ()"
-                  moduleName = "Star Wars Info"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "33">
-               </Location>
-               <Location
-                  uuid = "102C1CEC-8F2C-4EFE-A873-08AB323497D9 - b5ea8ab3fabf2220"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Star_Wars_Info.MovieViewController.didUpdateStarWars(_: Star_Wars_Info.StarWarsManager, starWars: Star_Wars_Info.MovieModel) -&gt; ()"
-                  moduleName = "Star Wars Info"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "228">
-               </Location>
-               <Location
-                  uuid = "102C1CEC-8F2C-4EFE-A873-08AB323497D9 - a68f6a48aa459054"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Star_Wars_Info.MovieViewController.didUpdateStarWars(_: Star_Wars_Info.StarWarsManager, starWars: Star_Wars_Info.MovieModel) -&gt; ()"
-                  moduleName = "Star Wars Info"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "33">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AF697FFF-DC61-45EA-8999-8F1C2DFCC0BA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Star Wars Info/Controller/MovieViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "didUpdateStarWars(_:starWars:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AF697FFF-DC61-45EA-8999-8F1C2DFCC0BA - a68f6a48aa459054"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Star_Wars_Info.MovieViewController.didUpdateStarWars(_: Star_Wars_Info.StarWarsManager, starWars: Star_Wars_Info.MovieModel) -&gt; ()"
-                  moduleName = "Star Wars Info"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "189">
-               </Location>
-               <Location
-                  uuid = "AF697FFF-DC61-45EA-8999-8F1C2DFCC0BA - a68f6a48aa459054"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Star_Wars_Info.MovieViewController.didUpdateStarWars(_: Star_Wars_Info.StarWarsManager, starWars: Star_Wars_Info.MovieModel) -&gt; ()"
-                  moduleName = "Star Wars Info"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "33">
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1101">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -412,9 +389,569 @@
             filePath = "Star Wars Info/Controller/MovieViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C283D7F5-BC8F-435A-8776-8BEE0400285F - 406bdd95d24f98b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.MovieViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "2167">
+               </Location>
+               <Location
+                  uuid = "C283D7F5-BC8F-435A-8776-8BEE0400285F - 406bdd95d24f98b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.MovieViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Controller/MovieViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "2136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3F708BC-48DF-418A-97A4-43FF0625E5E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
             endingLineNumber = "60"
+            landmarkName = "parseJSON(starWarsData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D3F708BC-48DF-418A-97A4-43FF0625E5E6 - 1c4dc9ff8d8833e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "974">
+               </Location>
+               <Location
+                  uuid = "D3F708BC-48DF-418A-97A4-43FF0625E5E6 - 1c4dc9ff8d8833e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.parseJSON(starWarsData: Foundation.Data) -&gt; Swift.Optional&lt;Star_Wars_Info.MovieModel&gt;"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "977">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCFF2A12-20D5-405F-A496-C6DBA84FC8DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Controller/MovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE8B1812-F245-4FA6-B920-784ECCF847EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Controller/MovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F2BF646-076B-489D-9381-7E69B7C07C45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Controller/MovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "075CDF50-EB00-48F7-AF18-B9BD266B14A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Controller/MovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "276439FA-5B29-4543-A3B1-369E967A6665"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "parseJSON(starWarsData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9317C0A9-534F-4725-9235-90E1B9278F74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Controller/MovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "didUpdateStarWars(_:starWars:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2476A866-3B93-4CB9-BFAC-473A7EDBAE91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Controller/MovieViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "didUpdateStarWars(_:starWars:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97EECE76-25E6-4926-83BD-B5730E2F4765"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DC4C70E-7665-4D5B-8F6B-E565208B4E2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AD14E01-74D5-44F0-93D6-E9ADBA1E26BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6275C595-4CCC-43FD-959B-AB73A6900C13"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6275C595-4CCC-43FD-959B-AB73A6900C13 - d51250efc5670cde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Star_Wars_Info.StarWarsManager.performRequest(with: Swift.String) -&gt; ()"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "586">
+               </Location>
+               <Location
+                  uuid = "6275C595-4CCC-43FD-959B-AB73A6900C13 - d51250efc5670cde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Star_Wars_Info.StarWarsManager.performRequest(with: Swift.String) -&gt; ()"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE0AE87B-13FE-4AF9-8D6D-07EA1DAE3D31"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EA978E2-022D-4C71-B9C7-B712056F452D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7EA978E2-022D-4C71-B9C7-B712056F452D - d51250efc5670c81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Star_Wars_Info.StarWarsManager.performRequest(with: Swift.String) -&gt; ()"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "704">
+               </Location>
+               <Location
+                  uuid = "7EA978E2-022D-4C71-B9C7-B712056F452D - d51250efc5670c81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Star_Wars_Info.StarWarsManager.performRequest(with: Swift.String) -&gt; ()"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "738">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEFD538A-7DB0-4166-BCA7-F1A8E362F9FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1201FF39-7D87-47A8-AE4B-D9337579C158"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1201FF39-7D87-47A8-AE4B-D9337579C158 - 43154e71694c6464"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Star_Wars_Info.StarWarsManager.performRequest(with: Swift.String) -&gt; ()"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "418">
+               </Location>
+               <Location
+                  uuid = "1201FF39-7D87-47A8-AE4B-D9337579C158 - d51250efc5670c5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Star_Wars_Info.StarWarsManager.performRequest(with: Swift.String) -&gt; ()"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "199">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "635794E8-53B7-4885-9098-F391320D339A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B2707DB-23F8-4872-8222-8E43080753FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3B2707DB-23F8-4872-8222-8E43080753FA - d51250efc5670cde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Star_Wars_Info.StarWarsManager.performRequest(with: Swift.String) -&gt; ()"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "586">
+               </Location>
+               <Location
+                  uuid = "3B2707DB-23F8-4872-8222-8E43080753FA - d51250efc5670cde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Star_Wars_Info.StarWarsManager.performRequest(with: Swift.String) -&gt; ()"
+                  moduleName = "Star Wars Info"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/forsmajor/Public/Development/Swift/Udemy/Test/Star%20Wars%20Info/Star%20Wars%20Info/Model/StarWarsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84377E8A-1EF1-4BC9-BBCC-34EBB04D98CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "performRequest(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01822F8C-BC5A-4299-9BD2-D1DD58295618"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "parseJSON(starWarsData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6E641EB-01B0-41E5-9B46-C772E67CA852"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "parseJSON(starWarsData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC86E2A3-F7F2-4C92-A65A-6DD25D078922"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "parseJSON(starWarsData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADF36BE1-6C6B-4783-BB73-AE8E0F79D59E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Star Wars Info/Model/StarWarsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "parseJSON(starWarsData:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
